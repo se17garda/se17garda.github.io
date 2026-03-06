@@ -2,3 +2,17 @@
     height: 160px !important;
     padding: 20px !important;
 }
+
+.garda-sheet {
+  width: 100%;
+  height: 650px;
+  border: none;
+}
+
+.travel-about .cta-banner {
+    min-height: 200px!important;
+}
+
+.blog-hero .regular-posts {
+    grid-template-columns: repeat(2, 1fr)!important;
+}

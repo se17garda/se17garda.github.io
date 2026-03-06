@@ -18,7 +18,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -96,12 +96,12 @@
               </p>
 
               <div class="hero-buttons">
-                <a href="#kontak-garda" class="btn btn-primary me-3">
-                  Kontak Garda
-                </a>
                 <a href="https://docs.google.com/spreadsheets/d/1907dvOc-PY0_vwLOm11P_2tB9hlw4ivuHRyWS5fyCB4/"
-                  target="_blank" class="btn btn-outline">
-                  Rencana Kerja
+                  target="_blank" class="btn btn-primary me-3">
+                  <i class="fa-solid fa-clipboard-list"></i> Rencana Kerja
+                </a>
+                <a href="#monitoring-bulanan" class="btn btn-outline">
+                  <i class="fa-solid fa-chart-line"></i> Monitoring Bulanan
                 </a>
               </div>
             </div>
@@ -134,11 +134,18 @@
                 </ul>
 
                 <div class="d-grid gap-2">
-                  <a href="#monitoring-bulanan" class="btn btn-info">
-                    Monitoring Bulanan
+                  <a href="#laporan-bulanan" class="btn btn-info">
+                    <i class="fa-solid fa-file-alt"></i> Laporan Bulanan (Dua Mingguan)
                   </a>
-                  <a href="#dokumentasi-bidang" class="btn btn-outline-secondary">
-                    Dokumentasi Kegiatan
+                  <a href="#laporan-bulanan" class="btn btn-outline-info">
+                    <i class="fa-solid fa-file-alt"></i> Laporan Pusat (Dua Mingguan)
+                  </a>
+                  <a href=https://drive.google.com/drive/folders/1fTYqkCwCf_IfKIfUFCjM00O5M58mG9H9?usp=drive_link"
+                    target="_blank" class="btn btn-info">
+                    <i class="fa-solid fa-building-columns"></i> Laporan Kabupaten/Kota
+                  </a>
+                  <a href="#dokumentasi-bidang" class="btn btn-outline-info">
+                    <i class="fa-solid fa-images"></i> Dokumentasi dan Surat-menyurat
                   </a>
                 </div>
 
@@ -152,305 +159,37 @@
     </section>
     <!-- /Garda Hero Section -->
 
-    <!-- Garda Milestone Timeline Section -->
-    <section id="timeline-garda" class="section travel-about light-background">
-
-      <div class="container">
-
+    <section id="rencana-kerja" class="travel-about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title pb-2">
+          <h2>Rencana Kerja</h2>
+          <div>
+            <span>RENCANA KERJA</span>
+            <span class="description-title">SENSUS EKONOMI 2026</span>
+          </div>
+        </div>
         <div class="row mt-5">
-          <div class="col-lg-12">
-            <div class="journey-timeline" data-aos="fade-up" data-aos-delay="200">
-
-              <!-- Timeline Header -->
-              <div class="timeline-header text-center mb-5">
-                <h3>Milestone Garda SE2026</h3>
-                <p>Tahapan kunci peran Garda dalam mendukung pelaksanaan Sensus Ekonomi 2026</p>
-              </div>
-
-              <div class="timeline-container">
-                <div class="timeline-track"></div>
-
-                <!-- JANUARI 2026 -->
-                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="300">
-                  <div class="milestone-marker">
-                    <span class="year">Jan 2026</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Persiapan & ToF</h4>
-                    <p>
-                      Persiapan kegiatan PL-SE2026 (M1–M2), Training of Facilitator (ToF)
-                      Intama & Innas (M3), serta Refreshing Intama PL-SE2026 (M4).
-                    </p>
-                  </div>
-                </div>
-
-                <!-- FEB–MAR 2026 -->
-                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="400">
-                  <div class="milestone-marker">
-                    <span class="year">Feb–Mar</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Rekrutmen & Pelatihan Innas</h4>
-                    <p>
-                      Rekrutmen petugas PL-SE2026 (Feb–Mar) dan Pelatihan Innas
-                      PL-SE2026 (M1–M2 Februari 2026).
-                    </p>
-                  </div>
-                </div>
-
-                <!-- APRIL 2026 -->
-                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="500">
-                  <div class="milestone-marker">
-                    <span class="year">April</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Pelatihan Inda & Sosialisasi</h4>
-                    <p>
-                      Pelatihan Inda PL-SE2026 (M1–M3 April) serta blasting email
-                      sosialisasi ke perusahaan skala besar (Fasih Web) Tahap 1 dan 2.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- APR–MEI 2026 -->
-                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="600">
-                  <div class="milestone-marker">
-                    <span class="year">Apr–Mei</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Pelatihan Petugas & CAWI</h4>
-                    <p>
-                      Pelatihan Petugas PL-SE2026 (M3 April–M2 Mei) serta
-                      blasting email CAWI ke perusahaan skala besar (Fasih Web).
-                    </p>
-                  </div>
-                </div>
-
-                <!-- MEI–JULI 2026 -->
-                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="700">
-                  <div class="milestone-marker">
-                    <span class="year">Mei–Jul</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Pendataan Lapangan</h4>
-                    <p>
-                      Pelaksanaan pendataan lapangan PL-SE2026
-                      pada periode 16 Mei hingga 31 Juli 2026.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- AGUSTUS 2026 -->
-                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="800">
-                  <div class="milestone-marker">
-                    <span class="year">1–15 Agu</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Pemeriksaan Akhir</h4>
-                    <p>
-                      Pemeriksaan akhir hasil pendataan PL-SE2026
-                      pada periode 1–15 Agustus 2026, mencakup Task Force dan Data Cleaning.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- AGUSTUS–SEPTEMBER 2026 -->
-                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="900">
-                  <div class="milestone-marker">
-                    <span class="year">Agu–Sep</span>
-                  </div>
-                  <div class="milestone-content">
-                    <h4>Pengolahan Data & Monitoring</h4>
-                    <p>
-                      Pengolahan data PL-SE2026 (Agustus–September),
-                      monitoring lanjutan, serta penyusunan laporan terpadu Garda SE2026.
-                    </p>
+          <div class="col-lg-12 cta-banner">
+            <div class="cta-banner" data-aos="zoom-in" data-aos-delay="300">
+              <div class="cta-overlay">
+                <div class="cta-content">
+                  <p class="fst-italic">Rencana kerja SE2026 mencakup koordinasi, monitoring, dokumentasi, <br />dan
+                    dukungan teknis untuk memastikan suksesnya pelaksanaan sensus ekonomi.
+                  </p>
+                  <div class="cta-buttons">
+                    <a href="https://docs.google.com/spreadsheets/d/10VQa6c4zbcKAHQV5g23SlCeDeXr4DwD2x7TFe4PFaeQ/edit?gid=0#gid=0"
+                      class="btn btn-outline"><i class="bi bi-box-arrow-up-right"></i> Buka di Google Sheets</a>
                   </div>
                 </div>
               </div>
             </div>
+            <iframe class="mt-3 garda-sheet"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQXxz4tSKpMt4JGoOW4-KmntJ5CybpAwQUsGIwMtxsqfOtDtm9p3UH5XZvHbvoIisZlftj5oTUwWize/pubhtml?widget=true&amp;headers=false">
+            </iframe>
           </div>
         </div>
       </div>
     </section>
-    <!-- /Garda Milestone Timeline Section -->
-
-    <!-- Kontak Garda & Pendamping Bidang Section -->
-    <section id="kontak-garda" class="testimonials section">
-
-      <div class="container">
-        <!-- Timeline Header -->
-        <div class="timeline-header text-center mb-5">
-          <h3>Kontak Garda SE2026</h3>
-          <p>Susunan Tim dan Pendamping Bidang pada Tim Pelaksana Sensus Ekonomi 2026</p>
-        </div>
-        <div class="testimonial-masonry">
-
-          <!-- WAKIL KETUA -->
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/esti.png" alt="Wakil Ketua Garda">
-                </div>
-                <div class="client-details">
-                  <h3>Esti Kartika Rini, SST</h3>
-                  <span class="position">Wakil Ketua Garda SE2026</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- KETUA -->
-          <div class="testimonial-item highlight" data-aos="fade-up">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <!-- <p>
-                Koordinator utama Garda Sensus Ekonomi 2026.
-              </p> -->
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/arie.png" alt="Ketua Garda">
-                </div>
-                <div class="client-details">
-                  <h3>Arie Bukhari Adam Semenguk, SST, M.E.</h3>
-                  <span class="position">Ketua Garda SE2026</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ADMIN, HUMAS & MR -->
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/naga.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Naga Tondi Hasibuan, S.Ikom</h3>
-                  <span class="position">Pendamping Bidang Administrasi, Humas & MR</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/della.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Haridha Nurfadilla, S.Stat.</h3>
-                  <span class="position">Pendamping Bidang Administrasi, Humas & MR</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ANALISIS & KUALITAS DATA -->
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/tia.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Nurtia, SST</h3>
-                  <span class="position">Pendamping Bidang Analisis & Kualitas Data</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PENGOLAHAN, TI & DISEMINASI -->
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/fi.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Nofriani, SST</h3>
-                  <span class="position">Pendamping Bidang Pengolahan, TI & Diseminasi</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- TEKNIS PENDATAAN & LAPANGAN -->
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/esti.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Esti Kartika Rini, SST</h3>
-                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/ardi.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Ardiansyah, S.E.</h3>
-                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="assets/img/person/hestin.png" alt="Pendamping Bidang">
-                </div>
-                <div class="client-details">
-                  <h3>Hestin Rahmanita, SST, M.Si.</h3>
-                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- /Kontak Garda & Pendamping Bidang Section -->
 
     <!-- Monitoring Bulanan -->
     <section id="monitoring-bulanan" class="travel-tours section">
@@ -598,8 +337,8 @@
         <div class="tours-section" data-aos="fade-up" data-aos-delay="400">
 
           <div class="section-header">
-            <h2>Laporan Bulanan</h2>
-            <p>Laporan monitoring dan evaluasi pelaksanaan Garda SE2026 per bulan</p>
+            <h2>Laporan Bulanan (Dua Mingguan)</h2>
+            <p>Laporan monitoring dan evaluasi pelaksanaan Garda SE2026 per dua minggu</p>
           </div>
 
           <div class="row gy-4">
@@ -857,13 +596,16 @@
     <section id="dokumentasi-bidang" class="travel-tours section">
 
       <div class="container">
-
+        <div class="section-title pb-2 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <h2>Dokumentasi dan Surat-menyurat</h2>
+          <div>
+            <span>DOKUMENTASI PER BIDANG</span>
+            <span class="description-title">DAN SURAT-MENYURAT</span>
+          </div>
+        </div>
         <div class="row mb-5" data-aos="fade-up" data-aos-delay="500">
           <div class="col-12">
             <div class="special-offers">
-
-              <h3 class="section-subtitle mb-4">Dokumentasi Kegiatan per Bidang</h3>
-
               <div class="row">
 
                 <!-- ADMIN, HUMAS & MR -->
@@ -1179,8 +921,28 @@
                   <li>
                     <i class="bi bi-play-circle me-1"></i>
                     <strong>Pusat_2026.02.27</strong><br>
-                    Sosialisasi Sosialisasi Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025<br>
+                    Sosialisasi Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025<br>
                     <a href="https://www.youtube.com/watch?v=NRQ4JD3WHvc" target="_blank"
+                      class="text-decoration-underline">
+                      Tonton Video
+                    </a>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-play-circle me-1"></i>
+                    <strong>Pusat_2026.03.05</strong><br>
+                    Rapat Koordinasi Persiapan Pelaksanaan SE2026 - Pusat dan Daerah<br>
+                    <a href="https://www.youtube.com/watch?v=P0J7xZukb5E" target="_blank"
+                      class="text-decoration-underline">
+                      Tonton Video
+                    </a>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-play-circle me-1"></i>
+                    <strong>Pusat_2026.03.06</strong><br>
+                    Sosialisasi Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025 Tahap III<br>
+                    <a href="https://www.youtube.com/watch?v=4nte6mLlj18" target="_blank"
                       class="text-decoration-underline">
                       Tonton Video
                     </a>
@@ -1197,6 +959,350 @@
       </div>
     </section>
     <!-- /Media Informasi Section -->
+
+    <!-- Blog Hero Section -->
+    <section id="kabupaten-kota" class="blog-hero section">
+      <div class="section-title pb-2 mb-4" data-aos="fade-up" data-aos-delay="400">
+        <h2>Laporan Kabupaten/Kota</h2>
+        <div>
+          <span>LAPORAN KABUPATEN/KOTA</span>
+          <span class="description-title">DAN RENCANA STRATEGIS</span>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="blog-grid">
+          <!-- Regular Posts Grid -->
+          <div class="regular-posts">
+            <article class="blog-item" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/kako/1.webp" alt="Blog Image" class="img-fluid">
+              <div class="blog-content">
+                <div class="post-meta">
+                  <span class="date">Laporan</span>
+                  <span class="category">Drive</span>
+                </div>
+                <h3 class="post-title">
+                  <a href="https://drive.google.com/drive/u/1/folders/1Khm52B2Nxu0wPcd_8qAYfg81qfXky_8t" target="_blank" title="Laporan Dua Mingguan">Laporan Dua Mingguan</a>
+                </h3>
+              </div>
+            </article>
+
+            <article class="blog-item" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/kako/2.webp" alt="Blog Image" class="img-fluid">
+              <div class="blog-content">
+                <div class="post-meta">
+                  <span class="date">Rencana</span>
+                  <span class="category">Strategis</span>
+                </div>
+                <h3 class="post-title">
+                  <a href="https://drive.google.com/drive/u/1/folders/1pxZVdNvRa6AYISj-GcdmM0R2ZNW9QZQg" target="_blank" title="Rencana Strategis">Rencana Strategis</a>
+                </h3>
+              </div>
+            </article>
+          </div><!-- End Regular Posts -->
+        </div>
+      </div>
+    </section><!-- /Blog Hero Section -->
+
+    <!-- Garda Milestone Timeline Section -->
+    <section id="timeline-garda" class="section travel-about light-background">
+
+      <div class="container">
+
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="journey-timeline" data-aos="fade-up" data-aos-delay="200">
+
+              <!-- Timeline Header -->
+              <div class="timeline-header text-center mb-5">
+                <h3>Milestone Garda SE2026</h3>
+                <p>Tahapan kunci peran Garda dalam mendukung pelaksanaan Sensus Ekonomi 2026</p>
+              </div>
+
+              <div class="timeline-container">
+                <div class="timeline-track"></div>
+
+                <!-- JANUARI 2026 -->
+                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="300">
+                  <div class="milestone-marker">
+                    <span class="year">Jan 2026</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Persiapan & ToF</h4>
+                    <p>
+                      Persiapan kegiatan PL-SE2026 (M1–M2), Training of Facilitator (ToF)
+                      Intama & Innas (M3), serta Refreshing Intama PL-SE2026 (M4).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FEB–MAR 2026 -->
+                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="400">
+                  <div class="milestone-marker">
+                    <span class="year">Feb–Mar</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Rekrutmen & Pelatihan Innas</h4>
+                    <p>
+                      Rekrutmen petugas PL-SE2026 (Feb–Mar) dan Pelatihan Innas
+                      PL-SE2026 (M1–M2 Februari 2026).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- APRIL 2026 -->
+                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="500">
+                  <div class="milestone-marker">
+                    <span class="year">April</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Pelatihan Inda & Sosialisasi</h4>
+                    <p>
+                      Pelatihan Inda PL-SE2026 (M1–M3 April) serta blasting email
+                      sosialisasi ke perusahaan skala besar (Fasih Web) Tahap 1 dan 2.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- APR–MEI 2026 -->
+                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="600">
+                  <div class="milestone-marker">
+                    <span class="year">Apr–Mei</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Pelatihan Petugas & CAWI</h4>
+                    <p>
+                      Pelatihan Petugas PL-SE2026 (M3 April–M2 Mei) serta
+                      blasting email CAWI ke perusahaan skala besar (Fasih Web).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- MEI–JULI 2026 -->
+                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="700">
+                  <div class="milestone-marker">
+                    <span class="year">Mei–Jul</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Pendataan Lapangan</h4>
+                    <p>
+                      Pelaksanaan pendataan lapangan PL-SE2026
+                      pada periode 16 Mei hingga 31 Juli 2026.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- AGUSTUS 2026 -->
+                <div class="timeline-milestone" data-aos="slide-left" data-aos-delay="800">
+                  <div class="milestone-marker">
+                    <span class="year">1–15 Agu</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Pemeriksaan Akhir</h4>
+                    <p>
+                      Pemeriksaan akhir hasil pendataan PL-SE2026
+                      pada periode 1–15 Agustus 2026, mencakup Task Force dan Data Cleaning.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- AGUSTUS–SEPTEMBER 2026 -->
+                <div class="timeline-milestone" data-aos="slide-right" data-aos-delay="900">
+                  <div class="milestone-marker">
+                    <span class="year">Agu–Sep</span>
+                  </div>
+                  <div class="milestone-content">
+                    <h4>Pengolahan Data & Monitoring</h4>
+                    <p>
+                      Pengolahan data PL-SE2026 (Agustus–September),
+                      monitoring lanjutan, serta penyusunan laporan terpadu Garda SE2026.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Garda Milestone Timeline Section -->
+
+    <!-- Kontak Garda & Pendamping Bidang Section -->
+    <section id="kontak-garda" class="testimonials section">
+
+      <div class="container">
+        <!-- Timeline Header -->
+        <div class="timeline-header text-center mb-5">
+          <h3>Kontak Garda SE2026</h3>
+          <p>Susunan Tim dan Pendamping Bidang pada Tim Pelaksana Sensus Ekonomi 2026</p>
+        </div>
+        <div class="testimonial-masonry">
+
+          <!-- WAKIL KETUA -->
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/esti.png" alt="Wakil Ketua Garda">
+                </div>
+                <div class="client-details">
+                  <h3>Esti Kartika Rini, SST</h3>
+                  <span class="position">Wakil Ketua Garda SE2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- KETUA -->
+          <div class="testimonial-item highlight" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <!-- <p>
+                Koordinator utama Garda Sensus Ekonomi 2026.
+              </p> -->
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/arie.png" alt="Ketua Garda">
+                </div>
+                <div class="client-details">
+                  <h3>Arie Bukhari Adam Semenguk, SST, M.E.</h3>
+                  <span class="position">Ketua Garda SE2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADMIN, HUMAS & MR -->
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/naga.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Naga Tondi Hasibuan, S.Ikom</h3>
+                  <span class="position">Pendamping Bidang Administrasi, Humas & MR</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/della.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Haridha Nurfadilla, S.Stat.</h3>
+                  <span class="position">Pendamping Bidang Administrasi, Humas & MR</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ANALISIS & KUALITAS DATA -->
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/tia.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Nurtia, SST</h3>
+                  <span class="position">Pendamping Bidang Analisis & Kualitas Data</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PENGOLAHAN, TI & DISEMINASI -->
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/fi.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Nofriani, SST</h3>
+                  <span class="position">Pendamping Bidang Pengolahan, TI & Diseminasi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TEKNIS PENDATAAN & LAPANGAN -->
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/esti.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Esti Kartika Rini, SST</h3>
+                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/ardi.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Ardiansyah, S.E.</h3>
+                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/hestin.png" alt="Pendamping Bidang">
+                </div>
+                <div class="client-details">
+                  <h3>Hestin Rahmanita, SST, M.Si.</h3>
+                  <span class="position">Pendamping Teknis Pendataan & Manajemen Lapangan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Kontak Garda & Pendamping Bidang Section -->
 
   </main>
 
