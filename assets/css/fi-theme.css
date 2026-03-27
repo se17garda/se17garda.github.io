@@ -92,3 +92,7 @@
 .video-link:hover {
   text-decoration: underline;
 }
+
+.info-content {
+  flex: 1;
+}
