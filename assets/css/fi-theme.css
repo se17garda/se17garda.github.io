@@ -16,3 +16,79 @@
 .blog-hero .regular-posts {
     grid-template-columns: repeat(2, 1fr)!important;
 }
+
+.video-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-left: 4px solid #ccc;
+  transition: all 0.2s ease;
+}
+
+.video-item:hover {
+  background: #eef6ff;
+  transform: translateY(-2px);
+}
+
+/* Color coding */
+.video-item.pusat {
+  border-left-color: #0d6efd;
+}
+
+.video-item.prov {
+  border-left-color: #198754;
+}
+
+.video-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+
+.badge-type {
+  padding: 3px 6px;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 6px;
+  background: #dee2e6;
+}
+
+.video-item.pusat .badge-type {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.video-item.prov .badge-type {
+  background: #198754;
+  color: #fff;
+}
+
+.video-date {
+  color: #6c757d;
+}
+
+.video-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.video-link {
+  font-size: 13px;
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.video-link:hover {
+  text-decoration: underline;
+}
